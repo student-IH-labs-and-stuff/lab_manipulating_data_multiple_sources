@@ -2,8 +2,8 @@
 
 # Lab | Manipulating Data from Multiple Sources 
 
-Refer to the data source [Adventureworks_Database.xlsx]()
-and [Budget_pdf]() in the ``Files for lab`` folder for this lab
+Refer to the data source [Adventureworks_Database.xlsx](https://github.com/student-IH-labs-and-stuff/lab_manipulating_data_multiple_sources/blob/main/Files_for_lab/AdventureWorks_Database.xlsx)
+and [Budget_pdf](https://github.com/student-IH-labs-and-stuff/lab_manipulating_data_multiple_sources/blob/main/Files_for_lab/Budget_pdf.pdf) in the ``Files for lab`` folder for this lab
 
 ### Instructions 
 The goal of this lab is to connect data from multiple sources and create visualisations from different tables. 
@@ -13,14 +13,14 @@ The goal of this lab is to connect data from multiple sources and create visuali
     * Customer
     * Territories
     * Product
-2. Plot the following visualisataions using the connected tables in a report: 
+2. Plot the following visualisations using the connected tables in a report: 
     * Quantity of products sold in each region by category 
     * Show total sales amount by year 
     * Show total sales by category and drill down by subcategory to share further insights
     * Use a line chart to show total sales over time by Month. 
-3. Now connect the  database ``Budget_pdf`` to your PowerBi workbook. Edit the various column names and merge all tables into one query named ``Budget_pdf``
+3. Now connect the  database ``Budget_pdf`` to your PowerBI workbook. Edit the column names as appropriate and merge all tables from the pdf into one query named ``Budget_pdf``
 4. Plot a bar chart comparison of Budget against actual sales and filter out the year 2017. 
-5. Open mySQl and create the database classicmodels by running the script ``mysqlsampledata`` located in the ``Files for lab`` folder. Next step is to connect to the SQl database ``classicmodels`` from PowerBI as a new data source and select the follwoing tables: 
+5. Open your MySQl client and create the database classicmodels by running the script ``mysqlsampledata`` located in the ``Files for lab`` folder. Next step is to connect to the SQl database ``classicmodels`` from PowerBI as a new data source and select the follwoing tables: 
     * offices
     * payments
     * products 
